@@ -3,6 +3,8 @@
 
 #include <stdint.h>
 
+#define EARTH_ORBIT 31557600
+
 typedef enum planet {
    MERCURY,
    VENUS,
@@ -15,5 +17,6 @@ typedef enum planet {
 } planet_t;
 
 float age(planet_t planet, int64_t seconds);
+float to_earth_units(planet_t planet, int64_t seconds);
 
 #endif

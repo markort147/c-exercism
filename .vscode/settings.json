@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.ipynb": "jupyter",
+        "space_age.h": "c"
+    }
+}
